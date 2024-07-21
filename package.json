@@ -16,6 +16,7 @@
     "@react-three/fiber": "^8.14.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
     "react-router-dom": "^6.17.0",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.157.0"
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
+    "@types/react-modal": "^3.16.3",
     "@vitejs/plugin-react": "^4.0.3",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.45.0",

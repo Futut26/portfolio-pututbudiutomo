@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        My{" "}
+        My Latest{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
           Projects
         </span>
@@ -22,16 +22,16 @@ const Projects = () => {
         Your collaboration is greatly appreciated!
       </p>
 
-      <div className='flex flex-wrap my-20 gap-16'>
+      <div className='gap-28 grid md:grid-cols-2 grid-cols-1 my-20'>
         {projects.map((project) => (
-          <div className='lg:w-[400px] w-full' key={project.name}>
-            <div className='block-container w-12 h-12'>
+          <div className='lg:w-[400px] w-full flex flex-col items-center' key={project.name}>
+            <div className='block-container w-72 h-40'>
               <div className={`btn-back rounded-xl ${project.theme}`} />
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
-                  src={project.iconUrl}
+                  src={project.thumbnail}
                   alt='threads'
-                  className='w-1/2 h-1/2 object-contain'
+                  className='w-[70%] object-contain'
                 />
               </div>
             </div>
@@ -43,12 +43,12 @@ const Projects = () => {
               <p className='mt-2 text-slate-500'>{project.description}</p>
               <div className='mt-5 flex items-center gap-2 font-poppins'>
                 <Link
-                  to={project.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
+                  to={`/projects/${project.id}`}
+                  
                   className='font-semibold text-blue-600'
+
                 >
-                  Live Link
+                  Read more
                 </Link>
                 <img
                   src={arrow}
