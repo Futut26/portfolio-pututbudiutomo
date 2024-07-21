@@ -155,7 +155,7 @@ export const projects = [
     technologies: ['Laravel', 'React,js', 'MySQL', 'Tailwind CSS'],
     features: ['Property Sales Page', 'Dashboard Page', 'Login and Register by Google', 'Content Management System'],
     description: "Developed a dynamic property sales website for MP Project as part of my undergraduate thesis in Information Systems. The project aimed to enhance the company's online presence and streamline the property sales process",
-    link: 'https://github.com/MP-Project-26/stellar_jardin',
+    link: 'https://github.com/Futut26/mp-sinergi',
     gallery: [
       {
         id: 1,
