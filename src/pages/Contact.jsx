@@ -33,7 +33,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Putut Budiutomo",
           from_email: form.email,
-          to_email: "putut.budiutomo46@gmail.com",
+          to_email: "budiutomoputut75@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -103,7 +103,7 @@ const Contact = () => {
               type='email'
               name='email'
               className='input'
-              placeholder='putut.budiutomo46n@gmail.com'
+              placeholder='budiutomoputut75@gmail.com'
               required
               value={form.email}
               onChange={handleChange}
