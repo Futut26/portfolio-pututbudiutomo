@@ -10,7 +10,8 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Putut</span>
         👋
         <br />
-      Fresh Graduate with a Bachelor's degree in <br /> Information Systems at Pembangunan Jaya University
+      Core Banking Programmer at Bank BTN | B.Sc. in Information Systems <br /> 
+      Specialized in Banking System Development
       </h1>
     );
 

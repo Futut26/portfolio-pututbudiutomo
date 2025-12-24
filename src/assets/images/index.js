@@ -16,6 +16,7 @@ import mp_property from './mp_property.png'
 import mp_dashboard from './mp-dashboard.png'
 import stellar_ui from './stellar_ui.png'
 import alpen_ui from './alpen_ui.png'
+import btn from './btn.png'
 
 
 export {
@@ -36,6 +37,7 @@ export {
     mp_property,
     mp_dashboard,
     stellar_ui,
-    alpen_ui
+    alpen_ui,
+    btn
 
 }

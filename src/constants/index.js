@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, mp, stellar_thumbnail, stellar_blog, stellar_dhasboard, alpen_thubmnail, alpen_blog, alpen_dashboard, mp_thumbnail, mp_property, mp_dashboard, stellar_ui, alpen_ui } from '../assets/images';
+import { meta, shopify, starbucks, tesla, mp, btn, stellar_thumbnail, stellar_blog, stellar_dhasboard, alpen_thubmnail, alpen_blog, alpen_dashboard, mp_thumbnail, mp_property, mp_dashboard, stellar_ui, alpen_ui } from '../assets/images';
 
 import {
   car,
@@ -122,6 +122,20 @@ export const experiences = [
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.',
+    ],
+  },
+  {
+    title: 'Core Banking Programmer',
+    company_name: 'PT Bank Tabungan Negara (Persero) Tbk',
+    icon: btn,
+    iconBg: '#ffffffff',
+    date: 'Oktober 2024 - Present',
+    points: [
+      'Developing and maintaining core banking systems on the AS400 platform using RPGLE, CLP, and SQL.',
+      'Collaborating with cross-functional teams including business analysts, system architects, and other developers to design and implement core banking features.',
+      'Conducting system analysis to identify areas for improvement and optimization within the core banking systems.',
+      'Ensuring compliance with banking regulations and security standards in all development activities.',
+
     ],
   },
 ];

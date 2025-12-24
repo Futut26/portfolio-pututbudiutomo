@@ -14,9 +14,7 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          I am a fresh graduate with a Bachelor's degree in Information Systems who has a deep interest in technical aspects such as designing and developing applications, as well as creating algorithms to solve problems. Although my
-          studies mainly focused on analysis and problem-solving, outside of my coursework, I have dedicated myself to web programming and Android mobile programming. Aspiring to become an IT Manager, I also enjoy exploring various aspects
-          of IT.
+          I am an Information Systems graduate and a Core Banking Programmer with experience in developing and maintaining banking systems on the AS400 platform. I specialize in system analysis and software engineering, with hands-on experience using RPGLE, CLP, and SQL to design and implement core banking features. I have a strong interest in building reliable, scalable systems and translating business requirements into effective technical solutions through close collaboration with cross-functional teams.
         </p>
       </div>
 
