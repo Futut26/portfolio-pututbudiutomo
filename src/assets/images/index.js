@@ -19,7 +19,7 @@ import alpen_ui from './alpen_ui.png'
 import btn from './btn.png'
 import ibm from './ibm.png'
 import dbeaver from './dbeaver.png'
-import golang from './go.png'
+import go from './go.png'
 
 
 export {
@@ -44,5 +44,5 @@ export {
     btn,
     ibm,
     dbeaver,
-    golang
+    go
 }

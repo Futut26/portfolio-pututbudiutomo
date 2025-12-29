@@ -18,7 +18,7 @@ import {
   alpen_ui,
   ibm,
   dbeaver,
-  golang
+  go
 } from '../assets/images';
 
 import {
@@ -140,7 +140,7 @@ export const skills = [
     type: 'Database Management',
   },
   {
-    imageUrl: golang,
+    imageUrl: go,
     name: 'Golang',
     type: 'Backend',
   },
