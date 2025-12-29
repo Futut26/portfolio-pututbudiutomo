@@ -141,8 +141,8 @@ export const skills = [
   },
   {
     imageUrl: go,
-    name: 'Golang',
-    type: 'Backend',
+    name: 'Golang', 
+    type: 'Backend Development',
   },
 
 ];
