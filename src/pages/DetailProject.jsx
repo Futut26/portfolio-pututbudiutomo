@@ -66,11 +66,6 @@ const DetailProject = () => {
             ))}
         </ul>
         </div>
-        
-            
-    
-      
-            
 
 
         <div className="mt-5">

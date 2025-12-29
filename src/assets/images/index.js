@@ -17,6 +17,9 @@ import mp_dashboard from './mp-dashboard.png'
 import stellar_ui from './stellar_ui.png'
 import alpen_ui from './alpen_ui.png'
 import btn from './btn.png'
+import ibm from './ibm.png'
+import dbeaver from './dbeaver.png'
+import golang from './go.png'
 
 
 export {
@@ -38,6 +41,8 @@ export {
     mp_dashboard,
     stellar_ui,
     alpen_ui,
-    btn
-
+    btn,
+    ibm,
+    dbeaver,
+    golang
 }

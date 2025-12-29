@@ -1,4 +1,25 @@
-import { meta, shopify, starbucks, tesla, mp, btn, stellar_thumbnail, stellar_blog, stellar_dhasboard, alpen_thubmnail, alpen_blog, alpen_dashboard, mp_thumbnail, mp_property, mp_dashboard, stellar_ui, alpen_ui } from '../assets/images';
+import { 
+  meta, 
+  shopify, 
+  starbucks, 
+  tesla, 
+  mp, 
+  btn, 
+  stellar_thumbnail, 
+  stellar_blog, 
+  stellar_dhasboard,
+  alpen_thubmnail,
+  alpen_blog,
+  alpen_dashboard, 
+  mp_thumbnail, 
+  mp_property, 
+  mp_dashboard, 
+  stellar_ui, 
+  alpen_ui,
+  ibm,
+  dbeaver,
+  golang
+} from '../assets/images';
 
 import {
   car,
@@ -108,6 +129,22 @@ export const skills = [
     name: 'Tailwind CSS',
     type: 'Frontend',
   },
+  {
+    imageUrl: ibm,
+    name: 'IBM AS400',
+    type: 'Backend',
+  },
+  {
+    imageUrl: dbeaver,
+    name: 'DBeaver',
+    type: 'Database Management',
+  },
+  {
+    imageUrl: golang,
+    name: 'Golang',
+    type: 'Backend',
+  },
+
 ];
 
 export const experiences = [
