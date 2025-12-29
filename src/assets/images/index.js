@@ -19,8 +19,6 @@ import alpen_ui from './alpen_ui.png'
 import btn from './btn.png'
 import ibm from './ibm.png'
 import dbeaver from './dbeaver.png'
-import go from './go.png'
-
 
 export {
     hero,
@@ -44,5 +42,4 @@ export {
     btn,
     ibm,
     dbeaver,
-    go
 }

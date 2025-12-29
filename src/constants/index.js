@@ -17,8 +17,7 @@ import {
   stellar_ui, 
   alpen_ui,
   ibm,
-  dbeaver,
-  go
+  dbeaver
 } from '../assets/images';
 
 import {
@@ -139,12 +138,6 @@ export const skills = [
     name: 'DBeaver',
     type: 'Database Management',
   },
-  {
-    imageUrl: go,
-    name: 'Golang', 
-    type: 'Backend Development',
-  },
-
 ];
 
 export const experiences = [
